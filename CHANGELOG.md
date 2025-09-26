@@ -5,7 +5,7 @@ This file follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) princ
 
 ---
 
-## [v1.0.0] - 2025-09-26
+## [v1.0.0] - 2025-09-22
 ### Added
 - Created **index.html** with hero section, services grid, and footer.  
 - Created **about.html** with company background, stats, and team profiles.  
