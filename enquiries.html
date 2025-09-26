@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make an Enquiry - NetWave Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container header-container">
+                <div class="logo-text-container">
+                    <div class="logo-main-text">NetWave Solutions</div>
+                    <div class="logo-subtext">Your Life. Your Connection. Your Future</div>
+                </div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiries.html" class="active">Enquiries</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>Make an Enquiry</h1>
+            <p>Interested in our services? Fill out the form below and our team will contact you shortly.</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <form id="enquiry-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Physical Address *</label>
+                    <input type="text" id="address" class="form-control" required placeholder="Street address, town, and postal code">
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Interested In *</label>
+                    <select id="service" class="form-control" required>
+                        <option value="">Select a service</option>
+                        <option value="residential">Residential Internet</option>
+                        <option value="business">Business Internet</option>
+                        <option value="gaming">Gaming Package</option>
+                        <option value="voip">VoIP Services</option>
+                        <option value="security">Network Security</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="package">Preferred Package</label>
+                    <select id="package" class="form-control">
+                        <option value="">Select a package (optional)</option>
+                        <option value="basic">Basic (10Mbps)</option>
+                        <option value="standard">Standard (20Mbps)</option>
+                        <option value="premium">Premium (50Mbps)</option>
+                        <option value="business-basic">Business Basic (20Mbps)</option>
+                        <option value="business-standard">Business Standard (50Mbps)</option>
+                        <option value="business-premium">Business Premium (100Mbps)</option>
+                        <option value="not-sure">Not sure - need advice</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" class="form-control" rows="5" required placeholder="Please provide any additional details about your requirements..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" required> I agree to the <a href="#">terms and conditions</a> and <a href="#">privacy policy</a> *
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn">Submit Enquiry</button>
+            </form>
+            
+            <div style="margin-top: 40px; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                <h3 style="text-align: center; margin-bottom: 20px;">What Happens Next?</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: center;">
+                    <div>
+                        <div style="background-color: var(--primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">1</div>
+                        <p><strong>Submit Your Enquiry</strong></p>
+                        <p>Fill out the form with your details and requirements</p>
+                    </div>
+                    <div>
+                        <div style="background-color: var(--primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">2</div>
+                        <p><strong>We Contact You</strong></p>
+                        <p>Our team will reach out within 24 hours to discuss your needs</p>
+                    </div>
+                    <div>
+                        <div style="background-color: var(--primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">3</div>
+                        <p><strong>Site Assessment</strong></p>
+                        <p>We check availability and suitability for your location</p>
+                    </div>
+                    <div>
+                        <div style="background-color: var(--primary); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold;">4</div>
+                        <p><strong>Installation</strong></p>
+                        <p>We schedule and complete your installation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>NetWave Solutions</h3>
+                    <p>Providing reliable wireless internet services across South Africa since 2025.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="enquiries.html">Enquiries</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Residential Internet</a></li>
+                        <li><a href="services.html">Business Solutions</a></li>
+                        <li><a href="services.html">Gaming Packages</a></li>
+                        <li><a href="services.html">VoIP Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 NetWave Solutions Pty (LTD). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Form submission
+        document.addEventListener('DOMContentLoaded', function() {
+            const enquiryForm = document.getElementById('enquiry-form');
+            if (enquiryForm) {
+                enquiryForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Thank you for your enquiry! We will contact you within 24 hours.');
+                    this.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
